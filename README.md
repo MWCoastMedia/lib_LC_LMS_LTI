@@ -1,4 +1,4 @@
-# lib_LC_LMS_LTI on behalf of Martin Koob
+# lib_LC_LMS_LTI Example Levure based LiveCode application
 
 Martin Koob (info@videolinkwell.com)
 
@@ -6,7 +6,7 @@ Martin Koob (info@videolinkwell.com)
 
 This is the Levure based application that I created with two aims. 
 1. To learn how to use the [Levure Framework](https://livecode.com/products/livecode-platform/levure/) for creating LiveCode applications.
-2. To create a library that would allow a LiveCode application to integrate with an LMS using LTI 1.3 [Learning Tools Interoperability](https://www.imsglobal.org/activity/learning-tools-interoperabilityLTI) 1.3 .
+2. To create a library that would allow a LiveCode application to integrate with an LMS using LTI 1.3 [Learning Tools Interoperability](https://www.imsglobal.org/activity/learning-tools-interoperability).
 
 The reason I wanted to share this with the xAPI Spring 2021 team-xapi-in-livecode is as a demonstration how a LiveCode project built with the Levure framework would incorporate a library.   The benefits of using the Levure framework aside from having many of an application's functions prebuilt is that it uses a relatively new feature of LiveCode [Script only stacks](https://livecode.com/script-only-stacks/).  A script only stack is just a text file (previously stacks were binary files).  This allows a team to work collaboratively on a project using a version management system like github i.e. Several people can be working on parts of the code of the project (called scripts in LiveCode) and the changes they make can be tracked and coordinated in github.   
 
