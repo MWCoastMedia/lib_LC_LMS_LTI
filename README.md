@@ -2,17 +2,17 @@
 
 Martin Koob (info@videolinkwell.com)
 
-###**Introduction**
+### **Introduction**
 
 This is the Levure based application that I created with two aims. 
 1. To learn how to use the [Levure Framework](https://livecode.com/products/livecode-platform/levure/) for creating LiveCode applications.
-2. To create a library that would allow a LiveCode application to integrate with an LMS using LTI 1.3 [Learning Tools Interoperability](https://www.imsglobal.org/activity/learning-tools-interoperabilityLTI 1.3) .
+2. To create a library that would allow a LiveCode application to integrate with an LMS using LTI 1.3 [Learning Tools Interoperability](https://www.imsglobal.org/activity/learning-tools-interoperabilityLTI) 1.3 .
 
 The reason I wanted to share this with the xAPI Spring 2021 team-xapi-in-livecode is as a demonstration how a LiveCode project built with the Levure framework would incorporate a library.   The benefits of using the Levure framework aside from having many of an application's functions prebuilt is that it uses a relatively new feature of LiveCode [Script only stacks](https://livecode.com/script-only-stacks/).  A script only stack is just a text file (previously stacks were binary files).  This allows a team to work collaboratively on a project using a version management system like github i.e. Several people can be working on parts of the code of the project (called scripts in LiveCode) and the changes they make can be tracked and coordinated in github.   
 
 When you look at the file structure of the Application it can be quite daunting especially for someone new to coding or to LiveCode. The good thing is that you don't have to worry about most of those files.  There are really only 4 or 5 of the files that you need to edit for a simple project like this.
 
-###**Exploring the Project**
+### **Exploring the Project**
 
 **Creating a local repository**
 Before you can work on the project you have to download the project to your desktop in a way that will ensure it remains connected to the project in github.  To do that you have to create a local repository folder on your desktop computer and have github download the project there. 
@@ -31,7 +31,7 @@ Next you see another window (another stack) that asks for a user name and passwo
 
 Dismiss the next dialog by clicking **OK**
 
-###Hello world!
+### Hello world!
 Now you get the payoff! A stack opens that shows a card called **Settings**.  There are fields for credentials that you can fill in if you are trying to connect to an LMS that is LTI compliant.  For now you don't have to do that to get a simple demo of what the project can do at the moment.
 
 So now if you want to get the big 'Hello world' moment 
